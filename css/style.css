@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.div1{
+    background-image:url(../images/1.png);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    animation-name: cars1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars1{
+    100%{left: 1210px;}
+}
+
+.div2{
+      background-image:url(../images/2.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+    animation-name: cars2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars2{
+    100%{right: 1210px;}
+}
+
+.div3{
+      background-image:url(../images/3.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    left: 0;
+    top: 600px;
+
+    animation-name: cars3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars3{
+    100%{left: 1210px;}
+}
+
+.div4{
+      background-image:url(../images/4.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    right: 0;
+    top: 900px;
+
+    animation-name: cars4;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars4{
+    100%{right: 1210px;}
+}
+
+.div5{
+      background-image:url(../images/5.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    left: 0;
+    top:1200px;
+
+    animation-name: cars5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars5{
+    100%{left: 1210px;}
+}
+
+.div6{
+      background-image:url(../images/6\ \(2\).jpeg );
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    top: 1500px;
+    right: 0;
+
+    animation-name: cars6;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars6{
+    100%{right: 1210px;}
+}
+
+.div7{
+      background-image:url(../images/7.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    left: 0;
+    top: 1800px;
+
+    animation-name: cars7;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars7{
+    100%{left: 1210px;}
+}
+
+.div8{
+      background-image:url(../images/8.jpeg);
+    background-size: cover;
+
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    top: 2100px;
+    right: 0;
+
+    animation-name: cars8;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars8{
+    100%{right: 1210px;}
+}
+.div9{
+      background-image:url(../images/9.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+ 
+    position: absolute;
+    left: 0;
+    top: 2400px;
+
+    animation-name: cars9;
+    animation-duration: 3s;
+    animation-delay: 24s;
+    animation-fill-mode: forwards;
+}
+@keyframes cars9{
+    100%{left: 1210px;}
+}
